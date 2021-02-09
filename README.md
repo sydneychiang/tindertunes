@@ -28,7 +28,7 @@ Tinder but for your songs. Users will swipe on songs/artists to create a playlis
 
 **Required Must-have Stories**
 * User can login
-* User create their profile/ sets their preferences
+* User create their profile/set their preferences
 * User can swipe left or right on an artist
 * User generates a playlist based on artist swipes
 * User can add the playlist to their Spotify
@@ -37,7 +37,7 @@ Tinder but for your songs. Users will swipe on songs/artists to create a playlis
 **Optional Nice-to-have Stories**
 
 * Details if you click on the artist
-* Can cure Covid 19 through the playlist (substitute for the vaccine)
+* Can cure COVID-19 through the playlist (substitute for the vaccine)
 
 ### 2. Screen Archetypes
 
