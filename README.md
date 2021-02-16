@@ -67,14 +67,24 @@ Tinder but for your songs. Users will swipe on songs/artists to create a playlis
 
 
 ## Wireframes
-<img src="wireframe.png" width=600>
+![](https://i.imgur.com/dQlPaHl.jpg)
 
 ### [BONUS] Digital Wireframes & Mockups
 
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+* Login Screen
+    *  (CREATE/GET) Create account or login to existing account
+* Swipe Screen
+    * (READ/GET) Query artist information songs & listeners
+    * (UPDATE/PUT) Add song/artist to playlist section
+* Playlist Screen
+    * (POST/PUT) Add playlist to spotify account
+* Settings Screen
+    * (UPDATE/PUT) Can change login for spotify account
+    * (UPDATE/PUT) Change the genre of music artists/songs suggested
+    * (UPDATE) Log out of current account
 ### Models
 [Add table of models]
 ### Networking
