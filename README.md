@@ -70,6 +70,7 @@ Tinder but for your songs. Users will swipe on songs/artists to create a playlis
 ![](https://i.imgur.com/dQlPaHl.jpg)
 
 ### [BONUS] Digital Wireframes & Mockups
+![](https://i.imgur.com/JNTOvu4.png)
 
 ### [BONUS] Interactive Prototype
 
