@@ -75,8 +75,8 @@ Tinder but for your songs. Users will swipe on songs/artists to create a playlis
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-Swiping
 ### Models
+Swiping
 | Property    |  Type       |  Description |
 | ----------- | ----------- |  ----------- |
 | artistName     | String      | Name of swipe artist|
