@@ -75,6 +75,16 @@ Tinder but for your songs. Users will swipe on songs/artists to create a playlis
 ### [BONUS] Interactive Prototype
 
 ## Schema 
+| Property    |  Type       |  Description |
+| ----------- | ----------- |  ----------- |
+| artistName     | String      | Name of swipe artist|
+| artistSongs  | Name       | Name of top songs|
+| artistListenerCount    | Integer     | Count of swipe artist’s monthly listeners |
+| artistCaption     | String      | Caption of swipe artist |
+| artistGenre     | String      | Artist types|
+| playlistName     | String      | Name of playlist|
+| isSwipedLeft     | Bool     | True if artist was swiped left, False if not |
+| isSwipedRight     | Bool     | True if artist was swiped right, False if not|
 
 ### Models
 [Add table of models]
