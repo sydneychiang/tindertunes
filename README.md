@@ -75,6 +75,8 @@ Tinder but for your songs. Users will swipe on songs/artists to create a playlis
 ### [BONUS] Interactive Prototype
 
 ## Schema 
+Swiping
+### Models
 | Property    |  Type       |  Description |
 | ----------- | ----------- |  ----------- |
 | artistName     | String      | Name of swipe artist|
@@ -86,8 +88,6 @@ Tinder but for your songs. Users will swipe on songs/artists to create a playlis
 | isSwipedLeft     | Bool     | True if artist was swiped left, False if not |
 | isSwipedRight     | Bool     | True if artist was swiped right, False if not|
 
-### Models
-[Add table of models]
 ### Networking
 * Login Screen
     *  (CREATE/GET) Create account or login to existing account
