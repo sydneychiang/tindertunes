@@ -74,6 +74,10 @@ Tinder but for your songs. Users will swipe on songs/artists to create a playlis
 ### [BONUS] Interactive Prototype
 
 ## Schema 
+
+### Models
+[Add table of models]
+### Networking
 * Login Screen
     *  (CREATE/GET) Create account or login to existing account
 * Swipe Screen
@@ -85,11 +89,5 @@ Tinder but for your songs. Users will swipe on songs/artists to create a playlis
     * (UPDATE/PUT) Can change login for spotify account
     * (UPDATE/PUT) Change the genre of music artists/songs suggested
     * (UPDATE) Log out of current account
-### Models
-[Add table of models]
-### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
 
 
