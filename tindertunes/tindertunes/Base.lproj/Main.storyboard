@@ -38,6 +38,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="a30-Wz-2Ne" kind="show" id="iuZ-Ma-NFd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -54,7 +57,7 @@
             <objects>
                 <viewController id="a30-Wz-2Ne" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rfZ-mm-w94">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KVT-GU-H2c">
@@ -105,6 +108,7 @@
                         <viewLayoutGuide key="safeArea" id="7fz-cS-bJy"/>
                         <color key="backgroundColor" red="0.098848976194858551" green="0.069903425872325897" blue="0.028263147920370102" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="etK-tS-oUJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cy3-vi-qP2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
