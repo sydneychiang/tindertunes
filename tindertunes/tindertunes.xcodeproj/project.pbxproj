@@ -51,6 +51,7 @@
 		6C92DC4625E4DD7500FDFB62 /* tindertunesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tindertunesUITests.swift; sourceTree = "<group>"; };
 		6C92DC4825E4DD7500FDFB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C92DC5725E4DFFA00FDFB62 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6C9524B225E5FCE300AFFB6D /* tindertunes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tindertunes-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +110,7 @@
 				6C92DC2F25E4DD7400FDFB62 /* LaunchScreen.storyboard */,
 				6C92DC3225E4DD7400FDFB62 /* Info.plist */,
 				6C92DC5725E4DFFA00FDFB62 /* LoginViewController.swift */,
+				6C9524B225E5FCE300AFFB6D /* tindertunes-Bridging-Header.h */,
 			);
 			path = tindertunes;
 			sourceTree = "<group>";
@@ -446,8 +448,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = Codepath.tindertunes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tindertunes-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,8 +468,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = Codepath.tindertunes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "tindertunes-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
