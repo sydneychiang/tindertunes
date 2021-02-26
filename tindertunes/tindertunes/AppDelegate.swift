@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  tindertunes
+//  spotifyconnectiondemo
 //
-//  Created by Sydney Chiang on 2/23/21.
+//  Created by Sydney Chiang on 2/25/21.
 //
 
 import UIKit
@@ -10,11 +10,40 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
+    var auth = SPTAuth()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        auth.redirectURL = URL(string: "TinderTunes://returnAfterLogin")
+        auth.sessionUserDefaultsKey = "current session"
         return true
+    }
+    
+    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+        
+        // called when user signs into spotify. Session data saved into user defaults, then notification posted to call updateAfterFirstLogin in ViewController.swift. Modeled off recommneded auth flow suggested by Spotify documentation
+        
+        
+        if auth.canHandle(auth.redirectURL) {
+            auth.handleAuthCallback(withTriggeredAuthURL: url, callback: { (error, session) in
+                
+                
+                if error != nil {
+                    print("error!")
+                }
+                let userDefaults = UserDefaults.standard
+                let sessionData = NSKeyedArchiver.archivedData(withRootObject: session)
+                print(sessionData)
+                userDefaults.set(sessionData, forKey: "SpotifySession")
+                userDefaults.synchronize()
+                NotificationCenter.default.post(name: Notification.Name(rawValue: "loginSuccessfull"), object: nil)
+            })
+            return true
+        }
+        
+        return false
+        
     }
 
     // MARK: UISceneSession Lifecycle
