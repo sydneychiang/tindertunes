@@ -10,8 +10,16 @@ Original App Design Project - README Template
 2. [Schema](#Schema)
 
 ## Overview
+
 ### Description
 Tinder but for your songs. Users will swipe on songs/artists to create a playlist. This will allow for users to find new songs in a specific genre or find new genres in general.
+
+### Progress as of February 25, 2021
+- Spotify API is connected to the app
+- Once a user logs in, they are transitioned to the swiping page
+- An app icon and a loading page have been created
+<img src="http://g.recordit.co/rRMgJWiCwQ.gif" width=250><br>
+
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
