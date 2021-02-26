@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  tindertunes
+//  spotifyconnectiondemo
 //
-//  Created by Sydney Chiang on 2/23/21.
+//  Created by Sydney Chiang on 2/25/21.
 //
 
 import UIKit
